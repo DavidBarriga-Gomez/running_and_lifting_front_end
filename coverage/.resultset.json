@@ -235,6 +235,8 @@
         "lines": [
           1,
           null,
+          null,
+          1,
           null
         ]
       },
@@ -249,8 +251,17 @@
           1,
           null
         ]
+      },
+      "D:/projects/running_and_lifting_front_end/app/controllers/login_controller.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
       }
     },
-    "timestamp": 1601324044
+    "timestamp": 1601325440
   }
 }
