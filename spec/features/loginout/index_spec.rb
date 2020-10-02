@@ -5,6 +5,6 @@ RSpec.describe 'log in and log out home page', type: :feature do
     visit '/'
 
     expect(page).to have_content('Running And Lifting Web Application')
-    expect(page).to have_link('Log In Using GMAIL')
+    expect(page).to have_link('LogIn With GMAIL')
   end
 end
