@@ -8,7 +8,10 @@ Rails.application.routes.draw do
 
   #google OmniAuth
   get '/login', to: redirect('/auth/google_oauth2')
-  get '/logoout', to: 'sessions#destroy'
+  get '/logout', to: 'sessions#destroy'
   get 'auth/:provider/callback', to: 'sessions#googleAuth'
   get 'auth/failure', to: redirect('/')
+
+  #users
+  get '/users/:id', to: 'users#index'
 end
