@@ -15,7 +15,7 @@ class SessionsController < ApplicationController
       cookies.encrypted[:current_user_id] = { value: user.id, expires: Time.now + 7.days}
       # session[:user_id] = user.id
 
-      redirect_to root_path
+      redirect_to '/users/:id'
     end
 
   def destroy
