@@ -13,3 +13,16 @@
  *= require_tree .
  *= require_self
  */
+
+ /* text alignment */
+ div.left {
+   text-align: left;
+ }
+
+ div.align_center {
+   text-align: center;
+ }
+
+ div.align_right {
+   text-align: right;
+ }
