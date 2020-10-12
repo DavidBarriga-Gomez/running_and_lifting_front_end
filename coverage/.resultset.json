@@ -213,6 +213,14 @@
           null
         ]
       },
+      "D:/projects/running_and_lifting_front_end/config/initializers/omniauth.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          null
+        ]
+      },
       "D:/projects/running_and_lifting_front_end/config/initializers/wrap_parameters.rb": {
         "lines": [
           null,
@@ -235,6 +243,18 @@
         "lines": [
           1,
           null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
           null,
           1,
           null
@@ -246,22 +266,65 @@
           null
         ]
       },
+      "D:/projects/running_and_lifting_front_end/spec/models/user_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          null
+        ]
+      },
+      "D:/projects/running_and_lifting_front_end/app/models/user.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          0,
+          0,
+          0,
+          0,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "D:/projects/running_and_lifting_front_end/app/models/application_record.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
       "D:/projects/running_and_lifting_front_end/app/controllers/application_controller.rb": {
         "lines": [
           1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          2,
+          null,
+          null,
           null
         ]
       },
       "D:/projects/running_and_lifting_front_end/app/controllers/login_controller.rb": {
         "lines": [
           1,
+          null,
           1,
+          1,
+          0,
+          null,
           null,
           null,
           null
         ]
       }
     },
-    "timestamp": 1601325440
+    "timestamp": 1602200362
   }
 }
