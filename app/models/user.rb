@@ -1,4 +1,10 @@
 class User < ApplicationRecord
+  validates_presence_of :uid
+  validates_presence_of :username
+  validates_presence_of :email
+  validates_presence_of :google_token
+  validates_presence_of :google_refresh_token
+
   def self.create_from_omniauth(auth)
     # Creates a new user only if it doesn't existnext
     where(email: auth.info.email).first_or_initialize do |user|
